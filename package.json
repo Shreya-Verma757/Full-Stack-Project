@@ -2,7 +2,6 @@
   "engines": {
     "node": "20.10.0"
   },
-
   "name": "major-project",
   "version": "1.0.0",
   "description": "",
@@ -14,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mapbox/mapbox-sdk": "^0.15.4",
+    "@mapbox/mapbox-sdk": "^0.15.5",
     "cloudinary": "^2.0.3",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^5.1.0",
