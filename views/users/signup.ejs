@@ -1,0 +1,24 @@
+<% layout('/layouts/boilerplate') %>
+
+<h2 class="mt-3">SignUp on WandorWorld</h2>
+
+<div class="row mt-3">
+    <div class="col-8 offset-2">
+        <form action="/signup" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" name="email" class="form-control" placeholder="name@example.com" required>
+              </div>
+              <label for="Password" class="form-label">Password</label>
+              <input type="password" class="form-control" name="password" required>
+              <div class="form-text">
+              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Sign-Up</button>
+        </form>
+    </div>
+</div>

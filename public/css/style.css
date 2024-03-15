@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+body{
+    font-family: 'Miltonian Tattoo', serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none !important;
+    font-size: 15px !important;
+}
+.container{
+    flex: 1;
+}
+
+/* NAVBAR */
+.navbar{
+    height: 5rem;
+    background-color: cornsilk;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+/* FOOTER */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links:hover{
+    text-decoration: underline;
+}
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+}
+.f-info{
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+/* IMAGE */
+.card{
+    border: none !important;
+    margin-bottom: 2rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.4;
+    background-color: #fff;
+}
+.btn{
+    background-color: #fe424d !important;
+}
+/* SHOW PAGE */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* REVIEWS */
+.cards{
+    border: 2px solid #f97676;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+/* MAP */
+#map { 
+    width: 80vh; 
+    height: 400px; 
+}
+
+.navbars{
+    margin-left: 25rem ;
+}
+.search{
+    background-color: #fe424d;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 1rem 0 1rem;
+    border: 1px solid #f97676;
+}
+.search:hover{
+    background-color: #fff;
+    color: #fe424d;
+}
+.search i{
+    display: inline;
+    margin-right: 0.5rem;
+}
+.search-input{
+    border-radius: 25px !important;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 1rem;
+}
